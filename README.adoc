@@ -4,6 +4,24 @@ This is a Swagger2Markup Maven template project which uses the swagger2markup-ma
 
 == Usage guide
 
+=== Swagger Specification
+
+Copy your Swagger Specification (JSON or YAML) file into the folder `src/docs/swagger`.
+
+=== Add hand-written content
+
+Add hand-written AsciiDoc content into the folder `src/docs/asciidoc` and include the files in `src/docs/asciidoc/index.adoc`.
+
+```
+\include::{generated}/overview.adoc[]
+\include::manual_content1.adoc[]
+\include::manual_content2.adoc[]
+\include::{generated}/paths.adoc[]
+\include::{generated}/definitions.adoc[]
+```
+
+The Asciidoctor attribute `{generated}` is set by the Gradle script to `target/asciidoc`. By default the Swagger2Markup Maven plugin creates the the generated AsciiDoc files into the `target/asciidoc` folder.
+
 === Convert AsciiDoc into HTML
 
 [source]
