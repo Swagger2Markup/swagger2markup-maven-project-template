@@ -8,7 +8,7 @@ This is a Swagger2Markup Maven template project which uses the swagger2markup-ma
 
 [source]
 ----
-gradlew asciidoctor
+mvn swagger2markup:process-swagger process-resources
 ----
 
-See `build/asciidoc/html5/index.html` to check the generated HTML report.
+See `target/asciidoc/html5/index.html` to check the generated HTML report.
