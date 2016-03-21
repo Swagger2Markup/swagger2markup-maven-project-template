@@ -74,6 +74,7 @@
                             <outputDirectory>${asciidoctor.html.output.directory}</outputDirectory>
                         </configuration>
                     </execution>
+                    <!--
                     <execution>
                         <id>output-pdf</id>
                         <phase>generate-resources</phase>
@@ -85,6 +86,7 @@
                             <outputDirectory>${asciidoctor.pdf.output.directory}</outputDirectory>
                         </configuration>
                     </execution>
+                    -->
                 </executions>
             </plugin>
         </plugins>
