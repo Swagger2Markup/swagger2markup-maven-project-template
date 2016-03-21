@@ -1,0 +1,14 @@
+= Swagger2Markup Maven template project
+
+This is a Swagger2Markup Maven template project which uses the swagger2markup-maven-plugin to convert a contract-first Swagger specification into an AsciiDoctor-based HTML documentation.
+
+== Usage guide
+
+=== Convert AsciiDoc into HTML
+
+[source]
+----
+gradlew asciidoctor
+----
+
+See `build/asciidoc/html5/index.html` to check the generated HTML report.
