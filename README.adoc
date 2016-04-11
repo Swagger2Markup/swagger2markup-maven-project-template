@@ -26,7 +26,7 @@ The Asciidoctor attribute `{generated}` is set by the Gradle script to `target/a
 
 [source]
 ----
-mvn swagger2markup:process-swagger process-resources
+mvn swagger2markup:convertSwagger2markup process-resources
 ----
 
 See `target/asciidoc/html5/index.html` to check the generated HTML report.
