@@ -1,0 +1,3 @@
+== Operation before hook
+
+Dummy text in operation before hook
