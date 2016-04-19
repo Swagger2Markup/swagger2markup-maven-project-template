@@ -1,3 +1,3 @@
-== Document before hook
+== Document begin hook
 
-Dummy text in document before hook
+Dummy text in document begin hook
