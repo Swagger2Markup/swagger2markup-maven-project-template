@@ -14,3 +14,5 @@ target/
 ehthumbs.db
 Thumbs.db
 
+/.classpath
+/.project
