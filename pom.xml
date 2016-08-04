@@ -9,7 +9,9 @@
     <version>1.0.0</version>
 
     <properties>
-        <swagger2markup.version>1.0.0</swagger2markup.version>
+        <swagger2markup.version>1.0.1</swagger2markup.version>
+        <swagger2markup.plugin.version>1.0.0</swagger2markup.plugin.version>
+        <swagger2markup.extension.version>1.0.0</swagger2markup.extension.version>
         
         <asciidoctorj.version>1.5.4</asciidoctorj.version>
         <jruby.version>1.7.21</jruby.version>
@@ -44,11 +46,16 @@
             <plugin>
                 <groupId>io.github.swagger2markup</groupId>
                 <artifactId>swagger2markup-maven-plugin</artifactId>
-                <version>${swagger2markup.version}</version>
+                <version>${swagger2markup.plugin.version}</version>
                 <dependencies>
                     <dependency>
                         <groupId>io.github.swagger2markup</groupId>
                         <artifactId>swagger2markup-import-files-ext</artifactId>
+                        <version>${swagger2markup.extension.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>io.github.swagger2markup</groupId>
+                        <artifactId>swagger2markup</artifactId>
                         <version>${swagger2markup.version}</version>
                     </dependency>
                 </dependencies>

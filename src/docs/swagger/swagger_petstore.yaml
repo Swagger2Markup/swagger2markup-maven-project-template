@@ -593,12 +593,19 @@ definitions:
         description: User Status
   Category:
     type: object
+    required:
+      - id
     properties:
       id:
         type: integer
         format: int64
+        description: The id of the category
+        example: 0
       name:
         type: string
+        description: The name of the category
+        default: DefaultCategory
+        example: FoobarCategory
   Pet:
     type: object
     required:
@@ -612,6 +619,7 @@ definitions:
         $ref: "#/definitions/Category"
       name:
         type: string
+        description: The name of the pet
         example: doggie
       photoUrls:
         type: array
@@ -632,6 +640,10 @@ definitions:
         format: int64
       name:
         type: string
+        description: "Sample string with range 0-2 and a pattern"
+        minLength: 0
+        maxLength: 2
+        pattern: "[A-Z0-9]{0,2}"
   Order:
     type: object
     properties:
