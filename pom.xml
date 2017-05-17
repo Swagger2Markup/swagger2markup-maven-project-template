@@ -6,12 +6,12 @@
 
     <groupId>io.github.swagger2markup</groupId>
     <artifactId>swagger2markup-maven-project-template</artifactId>
-    <version>1.2.0</version>
+    <version>1.3.1</version>
 
     <properties>
-        <swagger2markup.version>1.2.0</swagger2markup.version>
-        <swagger2markup.plugin.version>1.2.0</swagger2markup.plugin.version>
-        <swagger2markup.extension.version>1.2.0</swagger2markup.extension.version>
+        <swagger2markup.version>1.3.1</swagger2markup.version>
+        <swagger2markup.plugin.version>1.3.1</swagger2markup.plugin.version>
+        <swagger2markup.extension.version>1.3.1</swagger2markup.extension.version>
         
         <asciidoctorj.version>1.5.4</asciidoctorj.version>
         <jruby.version>1.7.21</jruby.version>
