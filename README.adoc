@@ -6,7 +6,8 @@ This is a Swagger2Markup Maven template project which uses the swagger2markup-ma
 
 === Swagger Specification
 
-Copy your Swagger Specification (JSON or YAML) file into the folder `src/docs/swagger`.
+. Copy your Swagger Specification (JSON or YAML) file into the folder `src/docs/swagger`
+. Modify the `pom.xml` `properties.swagger.input` to point at the copied specification
 
 === Add hand-written content
 
